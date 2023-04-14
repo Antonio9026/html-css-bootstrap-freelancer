@@ -1,8 +1,18 @@
 /* regole generali */
-.header-container{
+.header-container {
     height: 80px;
     display: flex;
     justify-content: space-between;
+}
+
+
+
+.start .col,
+.portfolio .col {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 
@@ -14,9 +24,17 @@
 
 
 
-
-
 /* debug */
-[class*="col"]{
+[class*="col"] {
     background-color: blueviolet;
+    border: black solid 2px;
+}
+
+.start-bootstrap {
+    background-color: #5cc7cb;
+    height: 500px;
+}
+
+.row {
+    background-color: blue;
 }

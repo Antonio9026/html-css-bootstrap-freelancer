@@ -1,0 +1,22 @@
+/* regole generali */
+.header-container{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* debug */
+[class*="col"]{
+    background-color: blueviolet;
+}

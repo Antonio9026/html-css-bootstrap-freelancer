@@ -3,7 +3,7 @@
     height: 80px;
     display: flex;
     justify-content: space-between;
-  
+
 }
 
 
@@ -16,113 +16,179 @@
     align-items: center;
 }
 
-ul{
+ul {
     list-style-type: none;
 }
 
+/* regloe star */
 
 /* regole header */
-header, .navbar{
+header,
+.navbar {
     background-color: #2c3e50;
-    
+
 }
-header .nav-link, .navbar-brand, 
-header .nav-link.active, .navbar-toggler{
+
+header .nav-link,
+.navbar-brand,
+header .nav-link.active,
+.navbar-toggler {
     color: white;
 }
-.navbar-toggler{
+
+.navbar-toggler {
     color: white;
 }
-#home{
-    color: white; 
+
+#home {
+    color: white;
 }
 
 /*regole start bootstrap --> */
- .start{
-background-color:#1abc9c ;
+.start {
+    background-color: #1abc9c;
 
 }
-.start [class*="col"]{
+
+.start [class*="col"] {
     padding: 20px 0;
 }
-.start img{
+
+.start img {
     width: 50%;
 }
-.start h1{
-    color: white; 
+
+.start h1 {
+    color: white;
 }
-.start i{
+
+.start i {
     font-size: 30px;
     color: white;
 }
-.persona{
+
+.persona {
     color: white;
+}
+
+/* regloe star */
+.star::before {
+    content: "";
+    border: solid 2px white;
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.star::after {
+    content: "";
+    border: solid 2px white;
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.star-black::before {
+    content: "";
+    border: solid 2px#2c3e50;
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+.star-black::after {
+    content: "";
+    border: solid 2px#2c3e50;
+    display: inline-block;
+    width: 100px;
+    height: 2px;
+    vertical-align: middle;
+    border-radius: 10px;
 }
 
 /* regole portfolio --> */
-.portfolio{
+.portfolio {
     padding-top: 40px;
-    
+
 }
-.portfolio h2{
+
+.portfolio h2 {
     color: #2c3e50;
 }
-.portfolio .star{
-    color:#2c3e50;
-    font-size: 30px;
-}
-.portfolio [class*="col"]{
-    padding: 20px 0;
-}
-.portfolio img{
-    width: 100%;
-   border-radius: 20px;
-    padding:0  5px;
-}
-/* <!--regole sezione about --> */
-.about{
-    background-color: #1abc9c;
-    color: white;
-}
-.star{
+
+.portfolio .star-black {
+    color: #2c3e50;
     font-size: 30px;
 }
 
-.about p{
-    font-size: 25px;
-    
+.portfolio [class*="col"] {
+    padding: 20px 0;
 }
-.about i{
+
+.portfolio img {
+    width: 100%;
+    border-radius: 20px;
+    padding: 0 5px;
+}
+
+/* <!--regole sezione about --> */
+.about {
+    background-color: #1abc9c;
+    color: white;
+}
+
+.star {
     font-size: 30px;
 }
+
+.about p {
+    font-size: 25px;
+
+}
+
+.about i {
+    font-size: 30px;
+}
+
 /* regole contact me --> */
-.contact{
+.contact {
     padding: 20px;
 }
-.contact p{
+
+.contact p,
+.contact .star-black {
     font-size: 30px;
     color: #2c3e50;
 }
-hr{
+
+hr {
     color: #2c3e50;
 }
-.contact-b{
-    background-color:#1abc9c ;
+
+.contact-b {
+    background-color: #1abc9c;
     width: 60px;
     height: 40px;
     border-radius: 5px;
     border: none;
 }
+
 /* <!--regole footer --> */
 
 
-.location{
+.location {
     padding: 40px 0;
-    background-color:#3a546d ;
+    background-color: #3a546d;
     color: white;
 }
 
-.social{
+.social {
     width: 30px;
     height: 30px;
     border: solid white 1px;
@@ -130,36 +196,40 @@ hr{
     margin: 5px;
     padding: 30px 30px;
     position: relative;
-    
-    
-    
+
+
+
 }
-.list{
+
+.list {
     padding-left: 0;
 }
+
 .social a {
     font-size: 20px;
     position: absolute;
     bottom: 20px;
-    right:25px;
+    right: 25px;
     text-decoration: none;
     color: white;
-   
+
 }
 
-.copy{
+.copy {
     height: 100px;
-    background-color:#2c3e50 ;
+    background-color: #2c3e50;
     color: white;
 }
-#copy{
-  font-size: 10px;
-  
- 
+
+#copy {
+    font-size: 10px;
+
+
 }
-input{
+
+input {
     border: none;
-   
+
 }
 
 /* debug */
@@ -172,5 +242,3 @@ input{
     background-color: #5cc7cb;
     height: 500px;
 } */
-
-
